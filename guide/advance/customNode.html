@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>自定义节点 | Logic Flow</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Logic Flow desc">
+    
+    <link rel="preload" href="/assets/css/0.styles.fbf5df4c.css" as="style"><link rel="preload" href="/assets/js/app.be1777b1.js" as="script"><link rel="preload" href="/assets/js/2.f76da5e6.js" as="script"><link rel="preload" href="/assets/js/8.cb5f5deb.js" as="script"><link rel="preload" href="/assets/js/3.bbced8a6.js" as="script"><link rel="prefetch" href="/assets/js/10.3fe4ea55.js"><link rel="prefetch" href="/assets/js/11.c3f070bf.js"><link rel="prefetch" href="/assets/js/12.d385b62a.js"><link rel="prefetch" href="/assets/js/13.743a4234.js"><link rel="prefetch" href="/assets/js/14.81da17dd.js"><link rel="prefetch" href="/assets/js/15.cd665b5c.js"><link rel="prefetch" href="/assets/js/16.f26a1360.js"><link rel="prefetch" href="/assets/js/17.0f9ec706.js"><link rel="prefetch" href="/assets/js/18.bfb3199c.js"><link rel="prefetch" href="/assets/js/19.61c8ed03.js"><link rel="prefetch" href="/assets/js/20.84a74565.js"><link rel="prefetch" href="/assets/js/21.1bdc7034.js"><link rel="prefetch" href="/assets/js/22.47953f69.js"><link rel="prefetch" href="/assets/js/23.40e9d362.js"><link rel="prefetch" href="/assets/js/24.a6426c4c.js"><link rel="prefetch" href="/assets/js/25.228a7a87.js"><link rel="prefetch" href="/assets/js/26.c4309a50.js"><link rel="prefetch" href="/assets/js/27.ebe54499.js"><link rel="prefetch" href="/assets/js/28.1d29e5c7.js"><link rel="prefetch" href="/assets/js/29.4a529671.js"><link rel="prefetch" href="/assets/js/30.73e51e75.js"><link rel="prefetch" href="/assets/js/31.5f1c7cf1.js"><link rel="prefetch" href="/assets/js/32.7b196dd5.js"><link rel="prefetch" href="/assets/js/33.ea42c90b.js"><link rel="prefetch" href="/assets/js/34.fa5c2fdb.js"><link rel="prefetch" href="/assets/js/35.778b43a7.js"><link rel="prefetch" href="/assets/js/36.6495bf02.js"><link rel="prefetch" href="/assets/js/37.6647f50e.js"><link rel="prefetch" href="/assets/js/38.c15aef1e.js"><link rel="prefetch" href="/assets/js/39.7b2c8f16.js"><link rel="prefetch" href="/assets/js/4.0b19d6cd.js"><link rel="prefetch" href="/assets/js/40.e2936ad6.js"><link rel="prefetch" href="/assets/js/5.99959149.js"><link rel="prefetch" href="/assets/js/6.a7026af5.js"><link rel="prefetch" href="/assets/js/7.282ac6cd.js"><link rel="prefetch" href="/assets/js/9.8b444d90.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.fbf5df4c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="Logic Flow" class="logo"> <span class="site-name can-hide">Logic Flow</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/start.html" class="nav-link">
+  教程
+</a></div><div class="nav-item"><a href="/api/logicFlowApi.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/usage/bpmn.html" class="nav-link">
+  示例
+</a></div><div class="nav-item"><a href="/article/article01.html" class="nav-link">
+  文章
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/start.html" class="nav-link">
+  教程
+</a></div><div class="nav-item"><a href="/api/logicFlowApi.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/usage/bpmn.html" class="nav-link">
+  示例
+</a></div><div class="nav-item"><a href="/article/article01.html" class="nav-link">
+  文章
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/guide/start.html" class="sidebar-link">快速上手</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>基础教程</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/basic/logic-flow.html" class="sidebar-link">画布 LogicFlow</a></li><li><a href="/guide/basic/node.html" class="sidebar-link">节点 Node</a></li><li><a href="/guide/basic/edge.html" class="sidebar-link">边 Edge</a></li><li><a href="/guide/basic/grid.html" class="sidebar-link">网格 Grid</a></li><li><a href="/guide/basic/background.html" class="sidebar-link">背景 Background</a></li><li><a href="/guide/basic/dnd.html" class="sidebar-link">拖拽 Dnd</a></li><li><a href="/guide/basic/keyboard.html" class="sidebar-link">键盘快捷键 Keyboard</a></li><li><a href="/guide/basic/redoundo.html" class="sidebar-link">撤销/重做 Undo/Redo</a></li><li><a href="/guide/basic/snapline.html" class="sidebar-link">对齐线 Snapline</a></li><li><a href="/guide/basic/silent-mode.html" class="sidebar-link">静默模式</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>进阶指引</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/advance/theme.html" class="sidebar-link">主题 Theme</a></li><li><a href="/guide/advance/event.html" class="sidebar-link">事件 Event</a></li><li><a href="/guide/advance/customNode.html" aria-current="page" class="active sidebar-link">自定义节点</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/advance/customNode.html#原理" class="sidebar-link">原理</a></li><li class="sidebar-sub-header"><a href="/guide/advance/customNode.html#注册自定义节点" class="sidebar-link">注册自定义节点</a></li><li class="sidebar-sub-header"><a href="/guide/advance/customNode.html#自定义属性" class="sidebar-link">自定义属性</a></li><li class="sidebar-sub-header"><a href="/guide/advance/customNode.html#自定义连线规则" class="sidebar-link">自定义连线规则</a></li></ul></li><li><a href="/guide/advance/customEdge.html" class="sidebar-link">自定义连线</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>拓展</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/extension/extension-intro.html" class="sidebar-link">简介</a></li><li><a href="/guide/extension/extension-components.html" class="sidebar-link">组件</a></li><li><a href="/guide/extension/bpmn-element.html" class="sidebar-link">BPMN 元素</a></li><li><a href="/guide/extension/snapshot.html" class="sidebar-link">导出图片</a></li><li><a href="/guide/extension/adapter.html" class="sidebar-link">数据转换 Adapter</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="自定义节点"><a href="#自定义节点" class="header-anchor">#</a> 自定义节点</h1> <blockquote><p>在实际使用中，我们往往需要基于各自的业务自定义节点。比如需要实现一个满足bpmn规范的流程图，我们则需要一个圆形表示<code>startEvent</code>，一个矩形表示<code>userTask</code>，一个圆柱体表示<code>dataStoreReference</code>。这个时候我们就可以使用自定义的方式来实现。</p></blockquote> <h2 id="原理"><a href="#原理" class="header-anchor">#</a> 原理</h2> <p><strong>基于继承的自定义节点</strong></p> <p>Logic Flow 对外暴露了基础节点<code>BaseNode</code>和3个代表简单类型的节点<code>RectNode</code>、<code>CircleNode</code>、<code>PolygonNode</code>。</p> <p><img src="/assets/img/custom-node.befafe5a.png" alt="节点继承原理"></p> <p>由上图可以看到，Logic Flow 内置了基础的<code>BaseNode</code>, <code>RectNode</code>、<code>CircleNode</code>、<code>PolygonNode</code>都是继承了<code>BaseNode</code>。然后是<code>CustomNode</code>, 他们可以继承<code>RectNode</code>、<code>CircleNode</code>、<code>PolygonNode</code>,也可以直接继承<code>BaseNode</code>。</p> <p><strong>MVVM</strong></p> <p>Logic Flow 内部是基于<code>MVVM</code>模式进行开发的，使用了<code>preact</code>来处理 view 的渲染和<code>mobx</code>来管理model。所以当我们需要高度自定义节点的时候，需要同时定义这个节点的<code>view</code>和<code>model</code>。当然，大多数情况下，我们只需要自定义<code>view</code>即可。</p> <h2 id="注册自定义节点"><a href="#注册自定义节点" class="header-anchor">#</a> 注册自定义节点</h2> <p>在创建了<code>LogicFlow</code>实例后，render 之前，我们可以使用<code>register</code>方法来注册自定义节点。</p> <p><strong>自定义节点名称</strong></p> <p>例如我们注册一个开始节点，这个节点长得和内置的<code>circle</code>节点一样，只是最后生成的 type 变成了<code>startEvent</code>, 那么我们可以如下实现：</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">const</span> lf <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LogicFlow</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  container<span class="token operator">:</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'#container'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+lf<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token string">'startEvent'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> CircleNode<span class="token punctuation">,</span> CircleNodeModel <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    view<span class="token operator">:</span> CircleNode<span class="token punctuation">,</span>
+    model<span class="token operator">:</span> CircleNodeModel<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+lf<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  nodes<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword">type</span><span class="token operator">:</span> <span class="token string">'startEvent'</span><span class="token punctuation">,</span>
+      x<span class="token operator">:</span> <span class="token number">300</span><span class="token punctuation">,</span>
+      y<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+      text<span class="token operator">:</span> <span class="token string">'开始'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p><strong>给节点内部增加其它元素</strong></p> <p>我们可以通过在节点内部任意位置增加文本和图片，例如<code>userTask</code>节点需要在左上角增加一个图标。我们则可以通过重写<code>view</code>中的<code>getShape</code>方法来实现。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">class</span> <span class="token class-name">UserTaskNode</span> <span class="token keyword">extends</span> <span class="token class-name">RectNode</span> <span class="token punctuation">{</span>
+  <span class="token function">getLabelShape</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> attributes <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getAttributes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span>
+      x<span class="token punctuation">,</span>
+      y<span class="token punctuation">,</span>
+      width<span class="token punctuation">,</span>
+      height<span class="token punctuation">,</span>
+      stroke<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span> <span class="token operator">=</span> attributes<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token function">h</span><span class="token punctuation">(</span>
+      <span class="token string">'svg'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        x<span class="token operator">:</span> x <span class="token operator">-</span> width <span class="token operator">/</span> <span class="token number">2</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">,</span>
+        y<span class="token operator">:</span> y <span class="token operator">-</span> height <span class="token operator">/</span> <span class="token number">2</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">,</span>
+        width<span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+        height<span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+        viewBox<span class="token operator">:</span> <span class="token string">'0 0 1274 1024'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function">h</span><span class="token punctuation">(</span>
+        <span class="token string">'path'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          fill<span class="token operator">:</span> stroke<span class="token punctuation">,</span>
+          d<span class="token operator">:</span> <span class="token string">'M655.807326 287.35973m-223.989415 0a218.879 218.879 0 1 0 447.978829 0 218.879 218.879 0 1 0-447.978829 0ZM1039.955839 895.482975c-0.490184-212.177424-172.287821-384.030443-384.148513-384.030443-211.862739 0-383.660376 171.85302-384.15056 384.030443L1039.955839 895.482975z'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">getShape</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> attributes <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getAttributes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span>
+      x<span class="token punctuation">,</span>
+      y<span class="token punctuation">,</span>
+      width<span class="token punctuation">,</span>
+      height<span class="token punctuation">,</span>
+      fill<span class="token punctuation">,</span>
+      stroke<span class="token punctuation">,</span>
+      strokeWidth<span class="token punctuation">,</span>
+      radius<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span> <span class="token operator">=</span> attributes<span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> <span class="token function">h</span><span class="token punctuation">(</span>
+      <span class="token string">'g'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">[</span>
+        <span class="token function">h</span><span class="token punctuation">(</span>
+          <span class="token string">'rect'</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span>
+            x<span class="token operator">:</span> x <span class="token operator">-</span> width <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span>
+            y<span class="token operator">:</span> y <span class="token operator">-</span> height <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span>
+            rx<span class="token operator">:</span> radius<span class="token punctuation">,</span>
+            ry<span class="token operator">:</span> radius<span class="token punctuation">,</span>
+            fill<span class="token punctuation">,</span>
+            stroke<span class="token punctuation">,</span>
+            strokeWidth<span class="token punctuation">,</span>
+            width<span class="token punctuation">,</span>
+            height<span class="token punctuation">,</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getLabelShape</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><iframe width="100%" height="200" src="" data-v-e8c9530e></iframe></p> <p>从上面的代码中，<code>getShape</code>方法会返回表示节点形状的<code>VNode</code>。这个<code>VNode</code>可以是任意 svg 能识别的标签。这里我们返回的就是一个矩形和一个图标。这个图标的位置可以通过直接调用<code>this.getAttributes()</code>拿到，除了位置，还有很多这个节点相关的属性都能拿到。</p> <blockquote><p>图标这里有个小技巧，如果使用的是一个 svg 图标，那么可以直接用 IDE 打开，将里面的 path 和 viewBox 替换到上面就好了。</p></blockquote> <p><strong>自定义形状</strong></p> <p>Logic Flow 内置了<code>RectNode</code>、<code>CircleNode</code>、<code>PolygonNode</code>分别对应着矩形、圆形和多边形三种基础形状，我们可以里面上面说的重写机制，修改这些节点的大小，颜色等。当我们需要其他形状的时候，可以直接通过继承<code>BaseNode</code>来实现更多的形状。例如我们需要实现一个三角形的节点。</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">this</span><span class="token punctuation">.</span>lf<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token string">'triangle'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> PolygonNode<span class="token punctuation">,</span> PolygonNodeModel <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">class</span> <span class="token class-name">TriangleNode</span> <span class="token keyword">extends</span> <span class="token class-name">PolygonNode</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">class</span> <span class="token class-name">TriangleModel</span> <span class="token keyword">extends</span> <span class="token class-name">PolygonNodeModel</span> <span class="token punctuation">{</span>
+    <span class="token keyword">constructor</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span> graphModel<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">super</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span> graphModel<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>points <span class="token operator">=</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">[</span><span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">80</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">80</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    view<span class="token operator">:</span> TriangleNode<span class="token punctuation">,</span>
+    model<span class="token operator">:</span> TriangleModel<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><iframe width="100%" height="200" src="" data-v-e8c9530e></iframe></p> <p>从上面代码可以看到，自定义多边形，需要重新自定义 model 中的 points, 这个 points 表示着多边形中这个形状对应的点。默认情况下，我们会在每个点上生成一个可以连接的锚点。</p> <h2 id="自定义属性"><a href="#自定义属性" class="header-anchor">#</a> 自定义属性</h2> <p>通过<code>graph</code>渲染节点的时候，我们需要传入表示节点的数据。其格式如下:</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">type</span> <span class="token class-name">NodeConfig</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  id<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  <span class="token keyword">type</span><span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  y<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  text<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    y<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    value<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  properties<span class="token operator">?</span><span class="token operator">:</span> Record<span class="token operator">&lt;</span><span class="token builtin">string</span><span class="token punctuation">,</span> <span class="token builtin">any</span><span class="token operator">&gt;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>一般来说，对于一个节点，我们只需要<code>type</code>、<code>x</code>、<code>y</code>、<code>text</code>就可以完整的图中的一个节点的所有可见信息了。<code>type</code>控制这个节点的类型，<code>x</code>、<code>y</code>控制着节点所处的位置，<code>text</code>控制着节点上的文本。</p> <p>虽然每种类型的节点在画布上，都对应着渲染其自己的形状。 但是在实际业务中，可能存在虽然节点的类型是相同的，但是因为不同的业务属性，可能会表现为不同的颜色、大小之类的。这种业务属性，我们可以通过 properties 传递到节点中。然后我们在创建节点的时候，依据不同业务属性，创建 UI 不同的节点。</p> <p>例如我们通过 properties 传入一个表示大小的属性，然后在创建的时候，依据这个大小的属性来控制节点显示为不同大小的节点。</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">class</span> <span class="token class-name">BeginNode</span> <span class="token keyword">extends</span> <span class="token class-name">RectNode</span> <span class="token punctuation">{</span>
+  <span class="token function">getAttributes</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> attributes <span class="token operator">=</span> <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">getAttributes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> properties <span class="token punctuation">}</span> <span class="token operator">=</span> attributes<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>properties<span class="token punctuation">.</span>size <span class="token operator">===</span> <span class="token string">'big'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        attributes<span class="token punctuation">.</span>width <span class="token operator">=</span> attributes<span class="token punctuation">.</span>width <span class="token operator">*</span> <span class="token number">1.3</span><span class="token punctuation">;</span>
+        attributes<span class="token punctuation">.</span>height <span class="token operator">=</span> attributes<span class="token punctuation">.</span>height <span class="token operator">*</span> <span class="token number">1.3</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> attributes<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><iframe width="100%" height="200" src="" data-v-e8c9530e></iframe></p> <p><code>properties</code>可以放任何值，Logic Flow内部不会使用它。当接入方需要存放一些和节点相绑定的数据时，可以将其加入到<code>properties</code>中。</p> <h2 id="自定义连线规则"><a href="#自定义连线规则" class="header-anchor">#</a> 自定义连线规则</h2> <p>在某些时候，我们可能需要控制连线的连接方式，比如开始节点不能被其它节点连接、结束节点不能连接其他节点、用户节点后面必须是判断节点等等。Logic Flow提供了自定义节点规则功能来实现这个需求。</p> <p>同上面的自定义外观，Logic Flow内部有<code>getConnectedSourceRules</code>和<code>getConnectedTargetRules</code>两个公共方法，分别返回当前节点作为连线开始点和作为连接目标点时的校验规则。当在面板上进行连线操作的时候，会判断所有的规则是否通过，只有通过了才能连接。</p> <p>这里我们先看看示例，比如我们想实现用户节点的下一个节点只能是网关节点。那么我们这个应该给用户节点配置作为连线<code>source</code>的规则。</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">class</span> <span class="token class-name">UserTaskNode</span> <span class="token keyword">extends</span> <span class="token class-name">RectNode</span> <span class="token punctuation">{</span>
+  <span class="token comment">/* ignore other code*/</span>
+
+  <span class="token function">getConnectedSourceRules</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> ConnectRule<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> rules <span class="token operator">=</span> <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">getConnectedSourceRules</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> gateWayOnlyAsTarget <span class="token operator">=</span> <span class="token punctuation">{</span>
+      message<span class="token operator">:</span> <span class="token string">'流程节点下一个节点只能是网关节点'</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">validate</span><span class="token operator">:</span> <span class="token punctuation">(</span>source<span class="token operator">:</span> BaseNode<span class="token punctuation">,</span> target<span class="token operator">:</span> BaseNode<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> isValid <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>target<span class="token punctuation">.</span><span class="token keyword">type</span> <span class="token operator">!==</span> <span class="token constant">EXCLUSIVE_GATEWAY_NAME</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          isValid <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> isValid<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    rules<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>gateWayOnlyAsTarget<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> rules<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><iframe width="100%" height="400" src="" data-v-e8c9530e></iframe></p> <p>从上面的代码可以看到，我们在原有的校验规则基础上，给新增了一个<code>gateWayOnlyAsTarget</code>规则，这个规则传入的是一个对象，对象拥有 message 和 validate 两个属性。message 是当规则不满足的时候，会抛出错误提示。<code>validate</code>则是传入规则检验的回调函数。</p> <p><code>validate</code>传入的参数有两个，分别为连线的起始节点和连线的目标节点。你则可以自己根据节点的情况，来返回<code>true or false</code>. <code>true</code>表示通过校验。</p> <p>同样，我们也可以通过重写<code>getConnectedTargetRules</code>方法，来实现当节点作为目标节点的统一判断。比如开始节点不能作为任何节点的目标节点。虽然我们也可以通过重写每个节点的<code>getConnectedSourceRules</code>来使其不能连接开始节点，但是这样太过于麻烦。</p> <p><strong>接收错误消息</strong></p> <p>当连线的时候，在鼠标松开的时候如果没有通过自定义规则，会对外抛出事件<code>connection:not-allowed</code>。</p> <div class="language-js extra-class"><pre class="language-js"><code>lf<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection:not-allowed'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">msg</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/advance/event.html" class="prev">
+        事件 Event
+      </a></span> <span class="next"><a href="/guide/advance/customEdge.html">
+        自定义连线
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.be1777b1.js" defer></script><script src="/assets/js/2.f76da5e6.js" defer></script><script src="/assets/js/8.cb5f5deb.js" defer></script><script src="/assets/js/3.bbced8a6.js" defer></script>
+  </body>
+</html>
